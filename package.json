@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "Test babel support and config for ES6 modules",
   "main": "index.html",
-  "dependencies": {
-    "babel-plugin-transform-es2015-modules-umd": "^6.5.0"
-  },
   "devDependencies": {
+    "babel-cli": "^6.5.1",
     "babel-plugin-transform-es2015-modules-umd": "^6.5.0"
   },
   "scripts": {
-    "dev": "babel src/ -w -o lib/out.js"
+    "dev": "node_modules/babel-cli/bin/babel.js src/ -w -o lib/out.js"
   },
   "repository": {
     "type": "git",
