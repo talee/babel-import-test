@@ -1,0 +1,32 @@
+{
+  "name": "babel-import-test",
+  "version": "1.0.0",
+  "description": "Test babel support and config for ES6 modules",
+  "main": "index.html",
+  "dependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.5.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.5.0"
+  },
+  "scripts": {
+    "dev": "babel src/ -w -o lib/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talee/babel-import-test.git"
+  },
+  "keywords": [
+    "babel",
+    "import",
+    "example",
+    "es6",
+    "module"
+  ],
+  "author": "Thomas Lee <tleehoc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talee/babel-import-test/issues"
+  },
+  "homepage": "https://github.com/talee/babel-import-test#readme"
+}
